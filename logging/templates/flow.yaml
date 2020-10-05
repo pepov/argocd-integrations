@@ -5,3 +5,5 @@ metadata:
 spec:
   outputRefs:
     - nullout
+  localOutputRefs:
+    - nullout

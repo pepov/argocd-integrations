@@ -5,5 +5,5 @@ name: banzai-components
 version: 0.1.0
 dependencies:
   - name: logging-operator
-    version: "=3.5.0"
+    version: "=3.6.0"
     repository: https://kubernetes-charts.banzaicloud.com
