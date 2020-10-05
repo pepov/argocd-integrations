@@ -1,0 +1,7 @@
+apiVersion: logging.banzaicloud.io/v1beta1
+kind: Flow
+metadata:
+  name: test
+spec:
+  outputRefs:
+    - nullout

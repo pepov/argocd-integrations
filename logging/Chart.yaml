@@ -1,0 +1,9 @@
+apiVersion: v2
+appVersion: "3"
+description: A Helm chart with CRDs and CRs
+name: banzai-components
+version: 0.1.0
+dependencies:
+  - name: logging-operator
+    version: "=3.5.0"
+    repository: https://kubernetes-charts.banzaicloud.com
