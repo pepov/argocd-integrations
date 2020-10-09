@@ -2,6 +2,8 @@ apiVersion: logging.banzaicloud.io/v1beta1
 kind: Flow
 metadata:
   name: test
+  annotations:
+    argocd.argoproj.io/sync-options: "ValidateWithLocalCRD=true"
 spec:
   outputRefs:
     - nullout
